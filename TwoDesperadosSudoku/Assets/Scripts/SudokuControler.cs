@@ -14,7 +14,7 @@ public class SudokuControler : MonoBehaviour
     [SerializeField]
     private int SRN; // koren iz N
     [SerializeField]
-    private int K = 30; // Koliko cifara uklanjamo sa table
+    private int K; // Koliko cifara uklanjamo sa table
 
     private GameObject[][] table;
 
@@ -109,12 +109,20 @@ public class SudokuControler : MonoBehaviour
 
     public void SetNewNumber(int rowIndex, int columnIndex, int number)
     {
+        mat[rowIndex][columnIndex] = 0;
+
+        if(number == 0){
+            table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = "";
+            table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.white;
+            return;
+        }
+
         Debug.Log("Setting new number");
         if (game.isEasy())
         {
             Debug.Log("Game mode easy");
 
-            if (isItSafe(rowIndex, columnIndex, number))
+            if (isAllowed(rowIndex, columnIndex, number))
             {
                 Debug.Log("It is safe");
 
@@ -126,7 +134,8 @@ public class SudokuControler : MonoBehaviour
             else
             {
                 Debug.Log("It is not safe");
-
+                //Mozda treba skloniti upis u matricu
+                mat[rowIndex][columnIndex] = number;
                 //upisi broj crvenom bojom. necemo ga pisati u matricu, jer mora da se promeni
                 table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
                 table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.red;
@@ -144,6 +153,76 @@ public class SudokuControler : MonoBehaviour
         }
        
     }
+
+
+    private Boolean CheckFullBoard(){
+
+        for (int i = 0; i < N; i++){
+            for (int j = 0; j < N; j++){
+                if(!isAllowed(i, j, mat[i][j]))
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
+
+    private Boolean ContainsInRow(int row, int number)
+    {
+        for (int i = 0; i < 9; i++)
+        {
+            if (mat[row][i] == number)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+
+    private Boolean ContainsInCol(int col, int number)
+    {
+        for (int i = 0; i < 9; i++)
+        {
+            if (mat[i][col] == number)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+    private Boolean ContainsInBox(int row, int col, int number)
+    {
+        int r = row - row % 3;
+        int c = col - col % 3;
+        for (int i = r; i < r + 3; i++)
+        {
+            for (int j = c; j < c + 3; j++)
+            {
+                if (mat[i][j] == number)
+                {
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    private Boolean isAllowed(int row, int col, int number)
+    {
+        if (number == 0)
+            return true;
+        return !(ContainsInRow(row, number) || ContainsInCol(col, number) || ContainsInBox(row, col, number));
+    }
+
+
+
+
 
     public bool isItSafe(int rowIndex, int columnIndex, int number){
 
@@ -380,19 +459,20 @@ public class SudokuControler : MonoBehaviour
     // complete game 
     public void removeKDigits()
     {
-        printSudoku();
 
         int count = K;
         while (count != 0)
         {
-            int cellId = randomGenerator(N * N -1);
+            int cellId = randomGenerator(N * N) - 1;
 
             // System.out.println(cellId); 
             // extract coordinates i  and j 
             int i = (cellId / N);
             int j = cellId % 9;
-            if (j != 0)
-                j = j - 1;
+            if(i>=N){
+                i = N - 1;
+            }
+
 
             // System.out.println(i+" "+j); 
             if (mat[i][j] != 0)

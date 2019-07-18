@@ -45,19 +45,16 @@ public class ClickControler : MonoBehaviour
                 if (selectedField != null)
                 {
                     int number;
-                    int.TryParse(selectedNumber.name, out number);
+
 
                     SudokuField fieldInfo = selectedField.GetComponent<SudokuField>();
 
-                    if(number != 0){
+                    bool parseOk = int.TryParse(selectedNumber.name, out number);
+                    if (parseOk)
+                    {
                         sudoku.SetNewNumber(fieldInfo.rowIndex, fieldInfo.columnIndex, number);
                     }
-                    //Text textComponent = selectedField.GetComponentInChildren<Text>();
-                    //if (textComponent != null)
-                    //{
-                    //    textComponent.text = selectedNumber.name;
-                        
-                    //}
+
                 }
             }
 
