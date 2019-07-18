@@ -6,9 +6,12 @@ using UnityEngine.UI;
 
 public class ClickControler : MonoBehaviour
 {
-
+    [SerializeField]
     private GameObject selectedField;
+    [SerializeField]
     private GameObject selectedNumber;
+    [SerializeField]
+    private SudokuControler sudoku;
 
     // Start is called before the first frame update
     void Start()
@@ -29,14 +32,32 @@ public class ClickControler : MonoBehaviour
         {
          //Selektovali smo dugme
             Debug.Log("Clicked on : " + selectedObject.name);
+
+
             if(selectedObject.tag == "SudokuButton"){
+
                 selectedField = selectedObject;
+
             }else if(selectedObject.tag == "NumericButton"){
+
                 selectedNumber = selectedObject;
                 //Logika
-                Text textComponent = selectedField.GetComponentInChildren<Text>();
-                if (textComponent != null){
+                if (selectedField != null)
+                {
+                    int number;
+                    int.TryParse(selectedNumber.name, out number);
 
+                    SudokuField fieldInfo = selectedField.GetComponent<SudokuField>();
+
+                    if(number != 0){
+                        sudoku.SetNewNumber(fieldInfo.rowIndex, fieldInfo.columnIndex, number);
+                    }
+                    //Text textComponent = selectedField.GetComponentInChildren<Text>();
+                    //if (textComponent != null)
+                    //{
+                    //    textComponent.text = selectedNumber.name;
+                        
+                    //}
                 }
             }
 

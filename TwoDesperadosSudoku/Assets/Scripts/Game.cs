@@ -45,6 +45,7 @@ public class Game : MonoBehaviour
     [SerializeField]
     private GameObject gameOverPanel;
 
+    [SerializeField]
     private SudokuControler sudoku;
 
 
@@ -103,6 +104,12 @@ public class Game : MonoBehaviour
                 //gamePanel.SetActive(false);
                 break;
         }
+    }
+
+    public bool isEasy(){
+        if (currentDifficulty == GAME_MODE.EASY)
+            return true;
+        else return false;
     }
 
     public void Ready(){

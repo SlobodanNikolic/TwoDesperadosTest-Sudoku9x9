@@ -21,10 +21,17 @@ public class SudokuControler : MonoBehaviour
     [SerializeField]
     GameObject[] sudokuButtons;
 
+    [SerializeField]
+    private Game game;
+
     private void Awake()
     {
 
     }
+
+   
+
+    
 
     private void Start()
     {
@@ -100,15 +107,115 @@ public class SudokuControler : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void SetNewNumber(int rowIndex, int columnIndex, int number)
     {
-        if(Input.GetKeyUp(KeyCode.S)){
-            fillValues();
+        Debug.Log("Setting new number");
+        if (game.isEasy())
+        {
+            Debug.Log("Game mode easy");
+
+            if (isItSafe(rowIndex, columnIndex, number))
+            {
+                Debug.Log("It is safe");
+
+                //upisi broj belom bojom
+                mat[rowIndex][columnIndex] = number;
+                table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
+                table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.white;
+            }
+            else
+            {
+                Debug.Log("It is not safe");
+
+                //upisi broj crvenom bojom. necemo ga pisati u matricu, jer mora da se promeni
+                table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
+                table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.red;
+            }
         }
-        if(Input.GetKeyUp(KeyCode.P)){
-            printSudoku();
+        else
+        {
+            Debug.Log("Game mode hard");
+
+            //upisujemo broj u svakom slucaju, belom bojom
+            mat[rowIndex][columnIndex] = number;
+            table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
+            table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.white;
+
         }
+       
     }
+
+    public bool isItSafe(int rowIndex, int columnIndex, int number){
+
+        //proveri celom duzinom
+        //pre
+        for (int i = 0; i < rowIndex; i++){
+
+            if(mat[i][columnIndex] == number){
+                return false;
+            }
+        }
+        //posle
+        for (int i = rowIndex+1; i < N; i++)
+        {
+
+            if (mat[i][columnIndex] == number)
+            {
+                return false;
+            }
+        }
+
+        //proveri sirinom
+        //pre
+        for (int j = 0; j < columnIndex; j++)
+        {
+            if (mat[rowIndex][j] == number)
+            {
+                return false;
+            }
+        }
+
+        //posle
+        for (int j = columnIndex + 1; j < N; j++)
+        {
+            if (mat[rowIndex][j] == number)
+            {
+                return false;
+            }
+        }
+
+        //proveri u okrugu
+        int i1 = rowIndex, i2 = rowIndex, j1 = columnIndex, j2 = columnIndex;
+
+        while (i1 % 3 != 0)
+            i1--;
+        while (j1 % 3 != 0)
+            j1--;
+        while (i2 % 3 != 2)
+            i2++;
+        while (j2 % 3 != 2)
+            j2++;
+        for (int startI = i1; startI <= i2; startI++){
+            for (int startJ = j1; startJ <= j2; startJ++){
+                if (startI == rowIndex && startJ == columnIndex)
+                    continue;
+                if (mat[startI][startJ] == number)
+                    return false;
+            }
+        }
+
+        return true;
+    }
+
+    //private void Update()
+    //{
+    //    if(Input.GetKeyUp(KeyCode.S)){
+    //        fillValues();
+    //    }
+    //    if(Input.GetKeyUp(KeyCode.P)){
+    //        printSudoku();
+    //    }
+    //}
 
     // Sudoku Generator 
     public void fillValues()
@@ -134,8 +241,14 @@ public class SudokuControler : MonoBehaviour
                 {
                     table[i][j].GetComponentInChildren<Text>().text = mat[i][j].ToString();
                     table[i][j].GetComponent<Button>().interactable = false;
-                }else{
+                    table[i][j].GetComponentInChildren<Text>().color = Color.gray;
+
+                }
+                else
+                {
                     table[i][j].GetComponentInChildren<Text>().text = "";
+                    table[i][j].GetComponentInChildren<Text>().color = Color.white;
+
                 }
             }
         }
