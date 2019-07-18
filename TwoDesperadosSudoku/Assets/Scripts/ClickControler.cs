@@ -5,6 +5,10 @@ using UnityEngine.EventSystems;
 
 public class ClickControler : MonoBehaviour
 {
+
+    private GameObject selectedField;
+    private GameObject selectedNumber;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +28,13 @@ public class ClickControler : MonoBehaviour
         {
          //Selektovali smo dugme
             Debug.Log("Clicked on : " + selectedObject.name);
+            if(selectedObject.tag == "SudokuButton"){
+                selectedField = selectedObject;
+            }else if(selectedObject.tag == "NumericButton"){
+                selectedNumber = selectedObject;
+                //Logika
+            }
+
         }
 
     }
