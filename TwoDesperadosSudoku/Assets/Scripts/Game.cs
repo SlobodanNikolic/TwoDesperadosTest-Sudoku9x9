@@ -45,6 +45,8 @@ public class Game : MonoBehaviour
     [SerializeField]
     private GameObject gameOverPanel;
 
+    private SudokuControler sudoku;
+
 
     // Start is called before the first frame update
     void Start()
@@ -62,7 +64,6 @@ public class Game : MonoBehaviour
         if(currentDifficulty == GAME_MODE.EASY){
 
             currentDifficulty = GAME_MODE.HARD;
-            leverButton.GetComponent<RectTransform>().RotateAround(Vector3.up, 180f);
             doorButtonHard.gameObject.SetActive(true);
             doorButtonEasy.gameObject.SetActive(false);
 
@@ -70,7 +71,6 @@ public class Game : MonoBehaviour
         else
         {
             currentDifficulty = GAME_MODE.EASY;
-            leverButton.GetComponent<RectTransform>().RotateAround(Vector3.up, 180f);
             doorButtonHard.gameObject.SetActive(false);
             doorButtonEasy.gameObject.SetActive(true);
 
@@ -78,7 +78,7 @@ public class Game : MonoBehaviour
     }
 
     public void Play(){
-        Invoke("Ready", 2f);
+        Invoke("Ready", 1f);
     }
 
     public void SetGameState(GAME_STATE newState){
@@ -87,19 +87,20 @@ public class Game : MonoBehaviour
             case GAME_STATE.HOME:
                 homePanel.SetActive(true);
                 gameOverPanel.SetActive(false);
-                gamePanel.SetActive(false);
+                //gamePanel.SetActive(false);
                 break;
             case GAME_STATE.READY:
                 homePanel.SetActive(false);
                 gameOverPanel.SetActive(false);
-                gamePanel.SetActive(false);
+                gamePanel.SetActive(true);
                 break;
             case GAME_STATE.PLAYING:
                 break;
             case GAME_STATE.GAME_OVER:
                 homePanel.SetActive(false);
                 gameOverPanel.SetActive(true);
-                gamePanel.SetActive(false);
+                sudoku.fillValues();
+                //gamePanel.SetActive(false);
                 break;
         }
     }

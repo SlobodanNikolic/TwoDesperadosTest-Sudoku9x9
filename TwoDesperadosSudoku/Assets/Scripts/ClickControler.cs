@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ClickControler : MonoBehaviour
 {
@@ -33,6 +34,10 @@ public class ClickControler : MonoBehaviour
             }else if(selectedObject.tag == "NumericButton"){
                 selectedNumber = selectedObject;
                 //Logika
+                Text textComponent = selectedField.GetComponentInChildren<Text>();
+                if (textComponent != null){
+
+                }
             }
 
         }

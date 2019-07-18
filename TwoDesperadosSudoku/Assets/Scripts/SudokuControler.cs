@@ -47,16 +47,21 @@ public class SudokuControler : MonoBehaviour
                 i++;
                 j = 0;
                 table[i][j] = sudBut;
+                sudBut.GetComponent<SudokuField>().rowIndex = i;
+                sudBut.GetComponent<SudokuField>().columnIndex = j;
                 j++;
             }
             else
             {
                 table[i][j] = sudBut;
+                sudBut.GetComponent<SudokuField>().rowIndex = i;
+                sudBut.GetComponent<SudokuField>().columnIndex = j;
+
                 j++;
             }
         }
 
-
+        fillValues();
 
     }
 
