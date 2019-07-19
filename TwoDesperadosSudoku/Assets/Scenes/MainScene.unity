@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 528405}
   - component: {fileID: 528404}
   - component: {fileID: 528407}
+  - component: {fileID: 528408}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -236,8 +237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.6, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &528404
 MonoBehaviour:
@@ -315,7 +316,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -346,6 +347,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &528408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &5337193
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +453,7 @@ GameObject:
   - component: {fileID: 6025913}
   - component: {fileID: 6025912}
   - component: {fileID: 6025915}
+  - component: {fileID: 6025916}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -462,8 +478,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -115, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6025912
 MonoBehaviour:
@@ -541,7 +557,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -572,6 +588,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &6025916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6025910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &16689326
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +694,7 @@ GameObject:
   - component: {fileID: 33850486}
   - component: {fileID: 33850485}
   - component: {fileID: 33850488}
+  - component: {fileID: 33850489}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -688,8 +719,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &33850485
 MonoBehaviour:
@@ -767,7 +798,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -798,6 +829,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &33850489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33850483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &37057508
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,6 +856,7 @@ GameObject:
   - component: {fileID: 37057511}
   - component: {fileID: 37057510}
   - component: {fileID: 37057513}
+  - component: {fileID: 37057514}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -835,8 +881,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -368.1, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &37057510
 MonoBehaviour:
@@ -914,7 +960,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -945,6 +991,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &37057514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37057508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &41253692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,6 +1255,7 @@ GameObject:
   - component: {fileID: 92541060}
   - component: {fileID: 92541059}
   - component: {fileID: 92541062}
+  - component: {fileID: 92541063}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -1219,8 +1280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.7, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &92541059
 MonoBehaviour:
@@ -1298,7 +1359,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1329,6 +1390,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &92541063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92541057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &94612389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,6 +1417,7 @@ GameObject:
   - component: {fileID: 94612392}
   - component: {fileID: 94612391}
   - component: {fileID: 94612394}
+  - component: {fileID: 94612395}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -1366,8 +1442,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.29999, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &94612391
 MonoBehaviour:
@@ -1445,7 +1521,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1476,6 +1552,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &94612395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94612389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &95371768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,6 +1658,7 @@ GameObject:
   - component: {fileID: 95547848}
   - component: {fileID: 95547847}
   - component: {fileID: 95547850}
+  - component: {fileID: 95547851}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -1592,8 +1683,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -368.1, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95547847
 MonoBehaviour:
@@ -1671,7 +1762,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1702,6 +1793,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &95547851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95547845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &114002457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1794,6 +1899,7 @@ GameObject:
   - component: {fileID: 121773892}
   - component: {fileID: 121773891}
   - component: {fileID: 121773894}
+  - component: {fileID: 121773895}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -1818,8 +1924,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121773891
 MonoBehaviour:
@@ -1897,7 +2003,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1928,6 +2034,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &121773895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121773889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &130972671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,6 +2061,7 @@ GameObject:
   - component: {fileID: 130972674}
   - component: {fileID: 130972673}
   - component: {fileID: 130972676}
+  - component: {fileID: 130972677}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -1965,8 +2086,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.29999, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130972673
 MonoBehaviour:
@@ -2044,7 +2165,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2075,6 +2196,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &130972677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130972671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &142232626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,6 +2223,7 @@ GameObject:
   - component: {fileID: 142232629}
   - component: {fileID: 142232628}
   - component: {fileID: 142232631}
+  - component: {fileID: 142232632}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -2112,8 +2248,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142232628
 MonoBehaviour:
@@ -2191,7 +2327,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2222,6 +2358,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &142232632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142232626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
+--- !u!1 &160121923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 160121924}
+  - component: {fileID: 160121926}
+  - component: {fileID: 160121925}
+  m_Layer: 5
+  m_Name: Image (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &160121924
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160121923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 435, y: 324}
+  m_SizeDelta: {x: 46.7, y: 37.5}
+  m_Pivot: {x: 0.4999997, y: 0.5}
+--- !u!114 &160121925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160121923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &160121926
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160121923}
+  m_CullTransparentMesh: 0
 --- !u!1 &168369338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2235,6 +2459,7 @@ GameObject:
   - component: {fileID: 168369341}
   - component: {fileID: 168369340}
   - component: {fileID: 168369343}
+  - component: {fileID: 168369344}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -2259,8 +2484,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -369.8, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &168369340
 MonoBehaviour:
@@ -2338,7 +2563,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2369,6 +2594,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &168369344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168369338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &176831170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2382,6 +2621,7 @@ GameObject:
   - component: {fileID: 176831173}
   - component: {fileID: 176831172}
   - component: {fileID: 176831175}
+  - component: {fileID: 176831176}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -2406,8 +2646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -63.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &176831172
 MonoBehaviour:
@@ -2485,7 +2725,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2516,6 +2756,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &176831176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 176831170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &193370274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2831,6 +3085,7 @@ GameObject:
   - component: {fileID: 219848486}
   - component: {fileID: 219848485}
   - component: {fileID: 219848484}
+  - component: {fileID: 219848487}
   m_Layer: 5
   m_Name: 5
   m_TagString: NumericButton
@@ -2951,6 +3206,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219848482}
   m_CullTransparentMesh: 0
+--- !u!114 &219848487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219848482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &223303160
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,6 +3391,7 @@ GameObject:
   - component: {fileID: 244746579}
   - component: {fileID: 244746578}
   - component: {fileID: 244746581}
+  - component: {fileID: 244746582}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -3146,8 +3416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -10.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &244746578
 MonoBehaviour:
@@ -3225,7 +3495,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3256,6 +3526,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &244746582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244746576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &249465803
 GameObject:
   m_ObjectHideFlags: 0
@@ -3269,6 +3553,7 @@ GameObject:
   - component: {fileID: 249465806}
   - component: {fileID: 249465805}
   - component: {fileID: 249465808}
+  - component: {fileID: 249465809}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -3293,8 +3578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249465805
 MonoBehaviour:
@@ -3372,7 +3657,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3403,6 +3688,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &249465809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249465803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &252009672
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +3794,7 @@ GameObject:
   - component: {fileID: 252636895}
   - component: {fileID: 252636894}
   - component: {fileID: 252636897}
+  - component: {fileID: 252636898}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -3519,8 +3819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -11.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &252636894
 MonoBehaviour:
@@ -3598,7 +3898,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3629,6 +3929,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &252636898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252636892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &262486904
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,6 +4035,7 @@ GameObject:
   - component: {fileID: 289313876}
   - component: {fileID: 289313875}
   - component: {fileID: 289313878}
+  - component: {fileID: 289313879}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -3745,8 +4060,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -10.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &289313875
 MonoBehaviour:
@@ -3824,7 +4139,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3855,6 +4170,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &289313879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289313873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &293219788
 GameObject:
   m_ObjectHideFlags: 0
@@ -4105,6 +4434,7 @@ GameObject:
   - component: {fileID: 302617954}
   - component: {fileID: 302617953}
   - component: {fileID: 302617956}
+  - component: {fileID: 302617957}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -4129,8 +4459,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -11.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &302617953
 MonoBehaviour:
@@ -4208,7 +4538,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4239,6 +4569,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &302617957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302617951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &323122973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4326,6 +4670,7 @@ GameObject:
   - component: {fileID: 324268591}
   - component: {fileID: 324268590}
   - component: {fileID: 324268593}
+  - component: {fileID: 324268594}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -4350,8 +4695,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -63.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &324268590
 MonoBehaviour:
@@ -4429,7 +4774,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4460,6 +4805,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &324268594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324268588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &333565459
 GameObject:
   m_ObjectHideFlags: 0
@@ -4473,6 +4832,7 @@ GameObject:
   - component: {fileID: 333565462}
   - component: {fileID: 333565461}
   - component: {fileID: 333565464}
+  - component: {fileID: 333565465}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -4497,8 +4857,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &333565461
 MonoBehaviour:
@@ -4576,7 +4936,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4607,6 +4967,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &333565465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333565459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &354287378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4620,6 +4994,7 @@ GameObject:
   - component: {fileID: 354287381}
   - component: {fileID: 354287380}
   - component: {fileID: 354287383}
+  - component: {fileID: 354287384}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -4644,8 +5019,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -368.9, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &354287380
 MonoBehaviour:
@@ -4723,7 +5098,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4754,6 +5129,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &354287384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354287378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &365582950
 GameObject:
   m_ObjectHideFlags: 0
@@ -4846,6 +5235,7 @@ GameObject:
   - component: {fileID: 367385997}
   - component: {fileID: 367385996}
   - component: {fileID: 367385999}
+  - component: {fileID: 367386000}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -4870,8 +5260,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367385996
 MonoBehaviour:
@@ -4949,7 +5339,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4980,6 +5370,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &367386000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367385994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &385793312
 GameObject:
   m_ObjectHideFlags: 0
@@ -5072,6 +5476,7 @@ GameObject:
   - component: {fileID: 402373787}
   - component: {fileID: 402373786}
   - component: {fileID: 402373789}
+  - component: {fileID: 402373790}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -5096,8 +5501,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -114.5, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &402373786
 MonoBehaviour:
@@ -5175,7 +5580,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5206,6 +5611,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &402373790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402373784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &409761005
 GameObject:
   m_ObjectHideFlags: 0
@@ -5298,6 +5717,7 @@ GameObject:
   - component: {fileID: 412214207}
   - component: {fileID: 412214206}
   - component: {fileID: 412214209}
+  - component: {fileID: 412214210}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -5322,8 +5742,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &412214206
 MonoBehaviour:
@@ -5401,7 +5821,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5432,6 +5852,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &412214210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412214204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &413281423
 GameObject:
   m_ObjectHideFlags: 0
@@ -5743,6 +6177,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443963327}
   m_CullTransparentMesh: 0
+--- !u!1 &449276605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 449276606}
+  m_Layer: 5
+  m_Name: MiscBricks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &449276606
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449276605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 518390655}
+  - {fileID: 607386486}
+  - {fileID: 1727257129}
+  - {fileID: 160121924}
+  - {fileID: 1740541711}
+  - {fileID: 1029931475}
+  - {fileID: 702059186}
+  m_Father: {fileID: 1500954950}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &463676920
 GameObject:
   m_ObjectHideFlags: 0
@@ -5755,6 +6231,7 @@ GameObject:
   - component: {fileID: 463676924}
   - component: {fileID: 463676923}
   - component: {fileID: 463676922}
+  - component: {fileID: 463676925}
   m_Layer: 5
   m_Name: 0
   m_TagString: NumericButton
@@ -5875,6 +6352,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463676920}
   m_CullTransparentMesh: 0
+--- !u!114 &463676925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463676920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &475282087
 GameObject:
   m_ObjectHideFlags: 0
@@ -5888,6 +6379,7 @@ GameObject:
   - component: {fileID: 475282090}
   - component: {fileID: 475282089}
   - component: {fileID: 475282092}
+  - component: {fileID: 475282093}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -5912,8 +6404,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &475282089
 MonoBehaviour:
@@ -5991,7 +6483,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6022,6 +6514,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &475282093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475282087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &488216071
 GameObject:
   m_ObjectHideFlags: 0
@@ -6114,6 +6620,7 @@ GameObject:
   - component: {fileID: 490828251}
   - component: {fileID: 490828250}
   - component: {fileID: 490828253}
+  - component: {fileID: 490828254}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -6138,8 +6645,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -368.1, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490828250
 MonoBehaviour:
@@ -6217,7 +6724,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6248,6 +6755,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &490828254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490828248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &491946685
 GameObject:
   m_ObjectHideFlags: 0
@@ -6278,7 +6799,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1500954950}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6321,6 +6842,80 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491946685}
+  m_CullTransparentMesh: 0
+--- !u!1 &518390654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 518390655}
+  - component: {fileID: 518390657}
+  - component: {fileID: 518390656}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &518390655
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518390654}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 207.1, y: -268.3}
+  m_SizeDelta: {x: 74.2, y: 37.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &518390656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518390654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &518390657
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518390654}
   m_CullTransparentMesh: 0
 --- !u!1 &519420028
 GameObject:
@@ -6540,6 +7135,7 @@ GameObject:
   - component: {fileID: 540755123}
   - component: {fileID: 540755122}
   - component: {fileID: 540755121}
+  - component: {fileID: 540755124}
   m_Layer: 5
   m_Name: 6
   m_TagString: NumericButton
@@ -6660,6 +7256,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 540755119}
   m_CullTransparentMesh: 0
+--- !u!114 &540755124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540755119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &555363963
 GameObject:
   m_ObjectHideFlags: 0
@@ -6910,6 +7520,7 @@ GameObject:
   - component: {fileID: 592370529}
   - component: {fileID: 592370528}
   - component: {fileID: 592370531}
+  - component: {fileID: 592370532}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -6934,8 +7545,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -164.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592370528
 MonoBehaviour:
@@ -7013,7 +7624,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7044,6 +7655,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &592370532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592370526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &606857784
 GameObject:
   m_ObjectHideFlags: 0
@@ -7057,6 +7682,7 @@ GameObject:
   - component: {fileID: 606857787}
   - component: {fileID: 606857786}
   - component: {fileID: 606857789}
+  - component: {fileID: 606857790}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -7081,8 +7707,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -114, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606857786
 MonoBehaviour:
@@ -7160,7 +7786,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7191,6 +7817,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &606857790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606857784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
+--- !u!1 &607386485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 607386486}
+  - component: {fileID: 607386488}
+  - component: {fileID: 607386487}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &607386486
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607386485}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 510, y: -160}
+  m_SizeDelta: {x: 74.2, y: 37.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &607386487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607386485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &607386488
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607386485}
+  m_CullTransparentMesh: 0
 --- !u!1 &610574204
 GameObject:
   m_ObjectHideFlags: 0
@@ -7204,6 +7918,7 @@ GameObject:
   - component: {fileID: 610574207}
   - component: {fileID: 610574206}
   - component: {fileID: 610574209}
+  - component: {fileID: 610574210}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -7228,8 +7943,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -114, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &610574206
 MonoBehaviour:
@@ -7307,7 +8022,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7338,6 +8053,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &610574210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610574204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &611154160
 GameObject:
   m_ObjectHideFlags: 0
@@ -8027,6 +8756,7 @@ GameObject:
   - component: {fileID: 702010700}
   - component: {fileID: 702010699}
   - component: {fileID: 702010702}
+  - component: {fileID: 702010703}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -8051,8 +8781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.8, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &702010699
 MonoBehaviour:
@@ -8130,7 +8860,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8161,6 +8891,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &702010703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702010697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
+--- !u!1 &702059185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702059186}
+  - component: {fileID: 702059188}
+  - component: {fileID: 702059187}
+  m_Layer: 5
+  m_Name: Image (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &702059186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702059185}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -172.06, y: -354.31}
+  m_SizeDelta: {x: 29.15, y: 27.88}
+  m_Pivot: {x: 0.4999997, y: 0.5}
+--- !u!114 &702059187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702059185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &702059188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702059185}
+  m_CullTransparentMesh: 0
 --- !u!1 &703811827
 GameObject:
   m_ObjectHideFlags: 0
@@ -8220,6 +9038,7 @@ GameObject:
   - component: {fileID: 763247538}
   - component: {fileID: 763247537}
   - component: {fileID: 763247540}
+  - component: {fileID: 763247541}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -8244,8 +9063,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -62.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &763247537
 MonoBehaviour:
@@ -8323,7 +9142,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8354,6 +9173,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &763247541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763247535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &765812646
 GameObject:
   m_ObjectHideFlags: 0
@@ -8446,6 +9279,7 @@ GameObject:
   - component: {fileID: 786949739}
   - component: {fileID: 786949738}
   - component: {fileID: 786949741}
+  - component: {fileID: 786949742}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -8470,8 +9304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -10.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &786949738
 MonoBehaviour:
@@ -8549,7 +9383,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8580,6 +9414,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &786949742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786949736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &789520947
 GameObject:
   m_ObjectHideFlags: 0
@@ -8794,6 +9642,7 @@ GameObject:
   - component: {fileID: 811761474}
   - component: {fileID: 811761473}
   - component: {fileID: 811761472}
+  - component: {fileID: 811761475}
   m_Layer: 5
   m_Name: LeverButton
   m_TagString: Untagged
@@ -8914,6 +9763,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811761470}
   m_CullTransparentMesh: 0
+--- !u!114 &811761475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811761470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 01a27174f508c472e81c817c5a15d68a, type: 3}
 --- !u!1 &841785802
 GameObject:
   m_ObjectHideFlags: 0
@@ -9006,6 +9869,7 @@ GameObject:
   - component: {fileID: 863856339}
   - component: {fileID: 863856338}
   - component: {fileID: 863856341}
+  - component: {fileID: 863856342}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -9030,8 +9894,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.20004, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863856338
 MonoBehaviour:
@@ -9109,7 +9973,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9140,6 +10004,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &863856342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863856336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &867048633
 GameObject:
   m_ObjectHideFlags: 0
@@ -9197,6 +10075,7 @@ GameObject:
   - component: {fileID: 905026449}
   - component: {fileID: 905026448}
   - component: {fileID: 905026451}
+  - component: {fileID: 905026452}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -9221,8 +10100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -63.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905026448
 MonoBehaviour:
@@ -9300,7 +10179,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9331,6 +10210,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &905026452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 905026446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &908752858
 GameObject:
   m_ObjectHideFlags: 0
@@ -9580,6 +10473,7 @@ GameObject:
   - component: {fileID: 918697658}
   - component: {fileID: 918697657}
   - component: {fileID: 918697656}
+  - component: {fileID: 918697659}
   m_Layer: 5
   m_Name: 4
   m_TagString: NumericButton
@@ -9700,6 +10594,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 918697654}
   m_CullTransparentMesh: 0
+--- !u!114 &918697659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918697654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &919319571
 GameObject:
   m_ObjectHideFlags: 0
@@ -9713,6 +10621,7 @@ GameObject:
   - component: {fileID: 919319574}
   - component: {fileID: 919319573}
   - component: {fileID: 919319576}
+  - component: {fileID: 919319577}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -9737,8 +10646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919319573
 MonoBehaviour:
@@ -9816,7 +10725,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9847,6 +10756,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &919319577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919319571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &921078717
 GameObject:
   m_ObjectHideFlags: 0
@@ -9860,6 +10783,7 @@ GameObject:
   - component: {fileID: 921078720}
   - component: {fileID: 921078719}
   - component: {fileID: 921078722}
+  - component: {fileID: 921078723}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -9884,8 +10808,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.6, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921078719
 MonoBehaviour:
@@ -9963,7 +10887,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9994,6 +10918,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &921078723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921078717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
+--- !u!1 &924032804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 924032805}
+  - component: {fileID: 924032807}
+  - component: {fileID: 924032806}
+  m_Layer: 5
+  m_Name: BackgroundInside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &924032805
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924032804}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 1500954950}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -160, y: 16.9}
+  m_SizeDelta: {x: 463.9, y: 525.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &924032806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924032804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.735849, g: 0.735849, b: 0.735849, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 753b3e257ce79463f8414e09a3d01d98, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &924032807
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924032804}
+  m_CullTransparentMesh: 0
 --- !u!1 &937690732
 GameObject:
   m_ObjectHideFlags: 0
@@ -10086,6 +11098,7 @@ GameObject:
   - component: {fileID: 938834216}
   - component: {fileID: 938834215}
   - component: {fileID: 938834218}
+  - component: {fileID: 938834219}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -10110,8 +11123,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.20004, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &938834215
 MonoBehaviour:
@@ -10189,7 +11202,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10220,6 +11233,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &938834219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938834213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &940995924
 GameObject:
   m_ObjectHideFlags: 0
@@ -10232,6 +11259,7 @@ GameObject:
   - component: {fileID: 940995928}
   - component: {fileID: 940995927}
   - component: {fileID: 940995926}
+  - component: {fileID: 940995929}
   m_Layer: 5
   m_Name: 3
   m_TagString: NumericButton
@@ -10352,6 +11380,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940995924}
   m_CullTransparentMesh: 0
+--- !u!114 &940995929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940995924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &941669764
 GameObject:
   m_ObjectHideFlags: 0
@@ -10443,6 +11485,7 @@ GameObject:
   - component: {fileID: 954084861}
   - component: {fileID: 954084860}
   - component: {fileID: 954084859}
+  - component: {fileID: 954084862}
   m_Layer: 5
   m_Name: DoorButtonHard
   m_TagString: Untagged
@@ -10562,6 +11605,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954084857}
   m_CullTransparentMesh: 0
+--- !u!114 &954084862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954084857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a92faaeb4190c4175b844e3ce9d0cfe0, type: 3}
 --- !u!1 &956190859
 GameObject:
   m_ObjectHideFlags: 0
@@ -10575,6 +11632,7 @@ GameObject:
   - component: {fileID: 956190862}
   - component: {fileID: 956190861}
   - component: {fileID: 956190864}
+  - component: {fileID: 956190865}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -10599,8 +11657,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &956190861
 MonoBehaviour:
@@ -10678,7 +11736,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10709,6 +11767,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &956190865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956190859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &965596088
 GameObject:
   m_ObjectHideFlags: 0
@@ -10722,6 +11794,7 @@ GameObject:
   - component: {fileID: 965596091}
   - component: {fileID: 965596090}
   - component: {fileID: 965596093}
+  - component: {fileID: 965596094}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -10746,8 +11819,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -62.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965596090
 MonoBehaviour:
@@ -10825,7 +11898,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10856,6 +11929,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &965596094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965596088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &978480979
 GameObject:
   m_ObjectHideFlags: 0
@@ -10869,6 +11956,7 @@ GameObject:
   - component: {fileID: 978480982}
   - component: {fileID: 978480981}
   - component: {fileID: 978480984}
+  - component: {fileID: 978480985}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -10893,8 +11981,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978480981
 MonoBehaviour:
@@ -10972,7 +12060,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11003,6 +12091,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &978480985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978480979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &982477598
 GameObject:
   m_ObjectHideFlags: 0
@@ -11174,6 +12276,7 @@ GameObject:
   - component: {fileID: 1006634041}
   - component: {fileID: 1006634040}
   - component: {fileID: 1006634043}
+  - component: {fileID: 1006634044}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -11198,8 +12301,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -112.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006634040
 MonoBehaviour:
@@ -11277,7 +12380,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11308,6 +12411,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1006634044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006634038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1008569925
 GameObject:
   m_ObjectHideFlags: 0
@@ -11479,6 +12596,7 @@ GameObject:
   - component: {fileID: 1026487318}
   - component: {fileID: 1026487317}
   - component: {fileID: 1026487320}
+  - component: {fileID: 1026487321}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -11503,8 +12621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -368.9, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026487317
 MonoBehaviour:
@@ -11582,7 +12700,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11613,6 +12731,94 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1026487321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026487315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
+--- !u!1 &1029931474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1029931475}
+  - component: {fileID: 1029931477}
+  - component: {fileID: 1029931476}
+  m_Layer: 5
+  m_Name: Image (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1029931475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029931474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -496.55, y: -329}
+  m_SizeDelta: {x: 74.2, y: 37.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1029931476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029931474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1029931477
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029931474}
+  m_CullTransparentMesh: 0
 --- !u!1 &1054134898
 GameObject:
   m_ObjectHideFlags: 0
@@ -11705,6 +12911,7 @@ GameObject:
   - component: {fileID: 1054573471}
   - component: {fileID: 1054573470}
   - component: {fileID: 1054573473}
+  - component: {fileID: 1054573474}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -11729,8 +12936,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.69998, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054573470
 MonoBehaviour:
@@ -11808,7 +13015,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11839,6 +13046,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1054573474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054573468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1072947197
 GameObject:
   m_ObjectHideFlags: 0
@@ -11931,6 +13152,7 @@ GameObject:
   - component: {fileID: 1075936892}
   - component: {fileID: 1075936891}
   - component: {fileID: 1075936894}
+  - component: {fileID: 1075936895}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -11955,8 +13177,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1075936891
 MonoBehaviour:
@@ -12034,7 +13256,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12065,6 +13287,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1075936895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075936889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1101766301
 GameObject:
   m_ObjectHideFlags: 0
@@ -12078,6 +13314,7 @@ GameObject:
   - component: {fileID: 1101766304}
   - component: {fileID: 1101766303}
   - component: {fileID: 1101766306}
+  - component: {fileID: 1101766307}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -12102,8 +13339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -114, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1101766303
 MonoBehaviour:
@@ -12181,7 +13418,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12212,6 +13449,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1101766307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101766301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1109764233
 GameObject:
   m_ObjectHideFlags: 0
@@ -12225,6 +13476,7 @@ GameObject:
   - component: {fileID: 1109764236}
   - component: {fileID: 1109764235}
   - component: {fileID: 1109764238}
+  - component: {fileID: 1109764239}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -12249,8 +13501,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -11.7, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1109764235
 MonoBehaviour:
@@ -12328,7 +13580,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12359,6 +13611,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1109764239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109764233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1133066074
 GameObject:
   m_ObjectHideFlags: 0
@@ -12530,6 +13796,7 @@ GameObject:
   - component: {fileID: 1136798878}
   - component: {fileID: 1136798877}
   - component: {fileID: 1136798880}
+  - component: {fileID: 1136798881}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -12554,8 +13821,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1136798877
 MonoBehaviour:
@@ -12633,7 +13900,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12664,6 +13931,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1136798881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136798875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1153758776
 GameObject:
   m_ObjectHideFlags: 0
@@ -12677,6 +13958,7 @@ GameObject:
   - component: {fileID: 1153758779}
   - component: {fileID: 1153758778}
   - component: {fileID: 1153758781}
+  - component: {fileID: 1153758782}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -12701,8 +13983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153758778
 MonoBehaviour:
@@ -12780,7 +14062,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12811,6 +14093,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1153758782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153758776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1207669332
 GameObject:
   m_ObjectHideFlags: 0
@@ -12824,6 +14120,7 @@ GameObject:
   - component: {fileID: 1207669335}
   - component: {fileID: 1207669334}
   - component: {fileID: 1207669337}
+  - component: {fileID: 1207669338}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -12848,8 +14145,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -316.3, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207669334
 MonoBehaviour:
@@ -12927,7 +14224,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12958,6 +14255,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1207669338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207669332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1207808141
 GameObject:
   m_ObjectHideFlags: 0
@@ -13173,6 +14484,7 @@ GameObject:
   - component: {fileID: 1226559801}
   - component: {fileID: 1226559800}
   - component: {fileID: 1226559803}
+  - component: {fileID: 1226559804}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -13197,8 +14509,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1226559800
 MonoBehaviour:
@@ -13276,7 +14588,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13307,6 +14619,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1226559804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226559798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1278061189
 GameObject:
   m_ObjectHideFlags: 0
@@ -13399,6 +14725,7 @@ GameObject:
   - component: {fileID: 1299476960}
   - component: {fileID: 1299476959}
   - component: {fileID: 1299476962}
+  - component: {fileID: 1299476963}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -13423,8 +14750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299476959
 MonoBehaviour:
@@ -13502,7 +14829,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13533,6 +14860,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1299476963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299476957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1302627735
 GameObject:
   m_ObjectHideFlags: 0
@@ -13546,6 +14887,7 @@ GameObject:
   - component: {fileID: 1302627738}
   - component: {fileID: 1302627737}
   - component: {fileID: 1302627740}
+  - component: {fileID: 1302627741}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -13570,8 +14912,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1302627737
 MonoBehaviour:
@@ -13649,7 +14991,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13680,6 +15022,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1302627741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302627735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1309060733
 GameObject:
   m_ObjectHideFlags: 0
@@ -13693,6 +15049,7 @@ GameObject:
   - component: {fileID: 1309060736}
   - component: {fileID: 1309060735}
   - component: {fileID: 1309060738}
+  - component: {fileID: 1309060739}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -13717,8 +15074,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309060735
 MonoBehaviour:
@@ -13796,7 +15153,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13827,6 +15184,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1309060739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309060733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1333067632
 GameObject:
   m_ObjectHideFlags: 0
@@ -13979,6 +15350,7 @@ GameObject:
   - component: {fileID: 1337295644}
   - component: {fileID: 1337295643}
   - component: {fileID: 1337295646}
+  - component: {fileID: 1337295647}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -14003,8 +15375,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.69998, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337295643
 MonoBehaviour:
@@ -14082,7 +15454,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14113,6 +15485,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1337295647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337295641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1342043716
 GameObject:
   m_ObjectHideFlags: 0
@@ -14204,6 +15590,7 @@ GameObject:
   - component: {fileID: 1345403501}
   - component: {fileID: 1345403500}
   - component: {fileID: 1345403499}
+  - component: {fileID: 1345403502}
   m_Layer: 5
   m_Name: 2
   m_TagString: NumericButton
@@ -14324,6 +15711,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345403497}
   m_CullTransparentMesh: 0
+--- !u!114 &1345403502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345403497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &1361567442
 GameObject:
   m_ObjectHideFlags: 0
@@ -14495,6 +15896,7 @@ GameObject:
   - component: {fileID: 1383563377}
   - component: {fileID: 1383563376}
   - component: {fileID: 1383563379}
+  - component: {fileID: 1383563380}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -14519,8 +15921,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1383563376
 MonoBehaviour:
@@ -14598,7 +16000,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14629,6 +16031,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1383563380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383563374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1405968391
 GameObject:
   m_ObjectHideFlags: 0
@@ -14642,6 +16058,7 @@ GameObject:
   - component: {fileID: 1405968394}
   - component: {fileID: 1405968393}
   - component: {fileID: 1405968396}
+  - component: {fileID: 1405968397}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -14666,8 +16083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -266.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1405968393
 MonoBehaviour:
@@ -14745,7 +16162,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14776,6 +16193,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1405968397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405968391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1406808676
 GameObject:
   m_ObjectHideFlags: 0
@@ -14788,6 +16219,7 @@ GameObject:
   - component: {fileID: 1406808680}
   - component: {fileID: 1406808679}
   - component: {fileID: 1406808678}
+  - component: {fileID: 1406808681}
   m_Layer: 5
   m_Name: ChestButton
   m_TagString: Untagged
@@ -14807,7 +16239,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1500954950}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14907,6 +16339,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406808676}
   m_CullTransparentMesh: 0
+--- !u!114 &1406808681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406808676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 01a27174f508c472e81c817c5a15d68a, type: 3}
 --- !u!1 &1411479018
 GameObject:
   m_ObjectHideFlags: 0
@@ -14920,6 +16366,7 @@ GameObject:
   - component: {fileID: 1411479021}
   - component: {fileID: 1411479020}
   - component: {fileID: 1411479023}
+  - component: {fileID: 1411479024}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -14944,8 +16391,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -62.100002, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411479020
 MonoBehaviour:
@@ -15023,7 +16470,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15054,6 +16501,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1411479024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411479018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1418002799
 GameObject:
   m_ObjectHideFlags: 0
@@ -15067,6 +16528,7 @@ GameObject:
   - component: {fileID: 1418002802}
   - component: {fileID: 1418002801}
   - component: {fileID: 1418002804}
+  - component: {fileID: 1418002805}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -15091,8 +16553,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -113.9, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1418002801
 MonoBehaviour:
@@ -15170,7 +16632,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15201,6 +16663,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1418002805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418002799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1437272391
 GameObject:
   m_ObjectHideFlags: 0
@@ -15492,6 +16968,7 @@ GameObject:
   - component: {fileID: 1478933549}
   - component: {fileID: 1478933548}
   - component: {fileID: 1478933551}
+  - component: {fileID: 1478933552}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -15516,8 +16993,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -11.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1478933548
 MonoBehaviour:
@@ -15595,7 +17072,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15626,6 +17103,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1478933552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478933546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1488769077
 GameObject:
   m_ObjectHideFlags: 0
@@ -15639,6 +17130,7 @@ GameObject:
   - component: {fileID: 1488769080}
   - component: {fileID: 1488769079}
   - component: {fileID: 1488769082}
+  - component: {fileID: 1488769083}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -15663,8 +17155,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -164.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488769079
 MonoBehaviour:
@@ -15742,7 +17234,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15773,6 +17265,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1488769083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488769077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1492950124
 GameObject:
   m_ObjectHideFlags: 0
@@ -15786,6 +17292,7 @@ GameObject:
   - component: {fileID: 1492950127}
   - component: {fileID: 1492950126}
   - component: {fileID: 1492950129}
+  - component: {fileID: 1492950130}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -15810,8 +17317,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -216.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492950126
 MonoBehaviour:
@@ -15889,7 +17396,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15920,6 +17427,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1492950130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492950124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1500954949
 GameObject:
   m_ObjectHideFlags: 0
@@ -15950,11 +17471,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 416893489}
-  - {fileID: 2113520287}
+  - {fileID: 924032805}
   - {fileID: 1225839154}
+  - {fileID: 2113520287}
   - {fileID: 1843388839}
   - {fileID: 491946686}
   - {fileID: 1406808677}
+  - {fileID: 449276606}
   m_Father: {fileID: 1787119048}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16092,6 +17615,7 @@ GameObject:
   - component: {fileID: 1527311434}
   - component: {fileID: 1527311433}
   - component: {fileID: 1527311436}
+  - component: {fileID: 1527311437}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -16116,8 +17640,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.6, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1527311433
 MonoBehaviour:
@@ -16195,7 +17719,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16226,6 +17750,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1527311437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527311431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1533056474
 GameObject:
   m_ObjectHideFlags: 0
@@ -16238,6 +17776,7 @@ GameObject:
   - component: {fileID: 1533056478}
   - component: {fileID: 1533056477}
   - component: {fileID: 1533056476}
+  - component: {fileID: 1533056479}
   m_Layer: 5
   m_Name: DoorButtonEasy
   m_TagString: Untagged
@@ -16357,6 +17896,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1533056474}
   m_CullTransparentMesh: 0
+--- !u!114 &1533056479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533056474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 24f795c7ed88445068d65765080075da, type: 3}
 --- !u!1 &1556059533
 GameObject:
   m_ObjectHideFlags: 0
@@ -16546,6 +18099,7 @@ GameObject:
   - component: {fileID: 1570168172}
   - component: {fileID: 1570168171}
   - component: {fileID: 1570168174}
+  - component: {fileID: 1570168175}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -16570,8 +18124,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -370.3, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570168171
 MonoBehaviour:
@@ -16649,7 +18203,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16680,6 +18234,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1570168175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570168169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1575641284
 GameObject:
   m_ObjectHideFlags: 0
@@ -16693,6 +18261,7 @@ GameObject:
   - component: {fileID: 1575641287}
   - component: {fileID: 1575641286}
   - component: {fileID: 1575641289}
+  - component: {fileID: 1575641290}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -16717,8 +18286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -318.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575641286
 MonoBehaviour:
@@ -16796,7 +18365,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16827,6 +18396,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1575641290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575641284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1578888076
 GameObject:
   m_ObjectHideFlags: 0
@@ -16840,6 +18423,7 @@ GameObject:
   - component: {fileID: 1578888079}
   - component: {fileID: 1578888078}
   - component: {fileID: 1578888081}
+  - component: {fileID: 1578888082}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: SudokuButton
@@ -16864,8 +18448,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -317.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578888078
 MonoBehaviour:
@@ -16943,7 +18527,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16974,6 +18558,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1578888082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578888076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1596456500
 GameObject:
   m_ObjectHideFlags: 0
@@ -17145,6 +18743,7 @@ GameObject:
   - component: {fileID: 1606762866}
   - component: {fileID: 1606762865}
   - component: {fileID: 1606762868}
+  - component: {fileID: 1606762869}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -17169,8 +18768,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -368.1, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606762865
 MonoBehaviour:
@@ -17248,7 +18847,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17279,6 +18878,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1606762869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606762863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1609933661
 GameObject:
   m_ObjectHideFlags: 0
@@ -17573,6 +19186,7 @@ GameObject:
   - component: {fileID: 1658560032}
   - component: {fileID: 1658560031}
   - component: {fileID: 1658560034}
+  - component: {fileID: 1658560035}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -17597,8 +19211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -11.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1658560031
 MonoBehaviour:
@@ -17676,7 +19290,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17707,6 +19321,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1658560035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658560029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1660748808
 GameObject:
   m_ObjectHideFlags: 0
@@ -18001,6 +19629,7 @@ GameObject:
   - component: {fileID: 1701602803}
   - component: {fileID: 1701602802}
   - component: {fileID: 1701602805}
+  - component: {fileID: 1701602806}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -18025,8 +19654,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -114, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701602802
 MonoBehaviour:
@@ -18104,7 +19733,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18135,6 +19764,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1701602806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701602800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1704916692
 GameObject:
   m_ObjectHideFlags: 0
@@ -18226,6 +19869,7 @@ GameObject:
   - component: {fileID: 1716549633}
   - component: {fileID: 1716549632}
   - component: {fileID: 1716549631}
+  - component: {fileID: 1716549634}
   m_Layer: 5
   m_Name: 9
   m_TagString: NumericButton
@@ -18346,6 +19990,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716549629}
   m_CullTransparentMesh: 0
+--- !u!114 &1716549634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716549629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &1721375070
 GameObject:
   m_ObjectHideFlags: 0
@@ -18504,6 +20162,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725042210}
   m_CullTransparentMesh: 0
+--- !u!1 &1727257128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1727257129}
+  - component: {fileID: 1727257131}
+  - component: {fileID: 1727257130}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1727257129
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727257128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 360, y: -387}
+  m_SizeDelta: {x: 74.2, y: 37.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1727257130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727257128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1727257131
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727257128}
+  m_CullTransparentMesh: 0
 --- !u!1 &1729265626
 GameObject:
   m_ObjectHideFlags: 0
@@ -18516,6 +20248,7 @@ GameObject:
   - component: {fileID: 1729265630}
   - component: {fileID: 1729265629}
   - component: {fileID: 1729265628}
+  - component: {fileID: 1729265631}
   m_Layer: 5
   m_Name: 7
   m_TagString: NumericButton
@@ -18636,6 +20369,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729265626}
   m_CullTransparentMesh: 0
+--- !u!114 &1729265631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1729265626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &1729891172
 GameObject:
   m_ObjectHideFlags: 0
@@ -18715,6 +20462,80 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
+--- !u!1 &1740541710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1740541711}
+  - component: {fileID: 1740541713}
+  - component: {fileID: 1740541712}
+  m_Layer: 5
+  m_Name: Image (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1740541711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740541710}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0001454, y: 1.0001454, z: 1.0001454}
+  m_Children: []
+  m_Father: {fileID: 449276606}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -510.3, y: 149}
+  m_SizeDelta: {x: 46.7, y: 37.5}
+  m_Pivot: {x: 0.4999997, y: 0.5}
+--- !u!114 &1740541712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740541710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.1463599, g: 0.13536845, b: 0.24528301, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: cd625386a501e4b359a1fc01196ade13, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1740541713
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740541710}
+  m_CullTransparentMesh: 0
 --- !u!1 &1743255328
 GameObject:
   m_ObjectHideFlags: 0
@@ -18727,6 +20548,7 @@ GameObject:
   - component: {fileID: 1743255332}
   - component: {fileID: 1743255331}
   - component: {fileID: 1743255330}
+  - component: {fileID: 1743255333}
   m_Layer: 5
   m_Name: 1
   m_TagString: NumericButton
@@ -18847,6 +20669,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743255328}
   m_CullTransparentMesh: 0
+--- !u!114 &1743255333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743255328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &1747026564
 GameObject:
   m_ObjectHideFlags: 0
@@ -19018,6 +20854,7 @@ GameObject:
   - component: {fileID: 1751045520}
   - component: {fileID: 1751045519}
   - component: {fileID: 1751045522}
+  - component: {fileID: 1751045523}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: SudokuButton
@@ -19042,8 +20879,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -217.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -215.7, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1751045519
 MonoBehaviour:
@@ -19121,7 +20958,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19152,6 +20989,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1751045523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751045517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1763917052
 GameObject:
   m_ObjectHideFlags: 0
@@ -19344,6 +21195,7 @@ GameObject:
   - component: {fileID: 1787853387}
   - component: {fileID: 1787853386}
   - component: {fileID: 1787853389}
+  - component: {fileID: 1787853390}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -19368,8 +21220,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.3, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1787853386
 MonoBehaviour:
@@ -19447,7 +21299,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19478,6 +21330,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1787853390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787853384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1811651426
 GameObject:
   m_ObjectHideFlags: 0
@@ -19491,6 +21357,7 @@ GameObject:
   - component: {fileID: 1811651429}
   - component: {fileID: 1811651428}
   - component: {fileID: 1811651431}
+  - component: {fileID: 1811651432}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: SudokuButton
@@ -19515,8 +21382,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.8, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -11.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811651428
 MonoBehaviour:
@@ -19594,7 +21461,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19625,6 +21492,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1811651432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811651426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1825370372
 GameObject:
   m_ObjectHideFlags: 0
@@ -19900,7 +21781,7 @@ RectTransform:
   - {fileID: 1716549630}
   - {fileID: 463676921}
   m_Father: {fileID: 1500954950}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19999,6 +21880,7 @@ GameObject:
   - component: {fileID: 1862696718}
   - component: {fileID: 1862696717}
   - component: {fileID: 1862696720}
+  - component: {fileID: 1862696721}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -20023,8 +21905,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1862696717
 MonoBehaviour:
@@ -20102,7 +21984,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20133,6 +22015,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1862696721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862696715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1863505826
 GameObject:
   m_ObjectHideFlags: 0
@@ -20224,6 +22120,7 @@ GameObject:
   - component: {fileID: 1866479931}
   - component: {fileID: 1866479930}
   - component: {fileID: 1866479929}
+  - component: {fileID: 1866479932}
   m_Layer: 5
   m_Name: 8
   m_TagString: NumericButton
@@ -20344,6 +22241,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866479927}
   m_CullTransparentMesh: 0
+--- !u!114 &1866479932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866479927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: a27ccce626bcf4ff6b221a0977242a4b, type: 3}
 --- !u!1 &1871713284
 GameObject:
   m_ObjectHideFlags: 0
@@ -20357,6 +22268,7 @@ GameObject:
   - component: {fileID: 1871713287}
   - component: {fileID: 1871713286}
   - component: {fileID: 1871713289}
+  - component: {fileID: 1871713290}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -20381,8 +22293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1871713286
 MonoBehaviour:
@@ -20460,7 +22372,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20491,6 +22403,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1871713290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871713284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1873916187
 GameObject:
   m_ObjectHideFlags: 0
@@ -20627,6 +22553,7 @@ GameObject:
   - component: {fileID: 1891734317}
   - component: {fileID: 1891734316}
   - component: {fileID: 1891734319}
+  - component: {fileID: 1891734320}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: SudokuButton
@@ -20651,8 +22578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.2, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: 41.2, y: 208.75}
+  m_SizeDelta: {x: 51.3, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891734316
 MonoBehaviour:
@@ -20730,7 +22657,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20761,6 +22688,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1891734320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891734314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1891913342
 GameObject:
   m_ObjectHideFlags: 0
@@ -20927,6 +22868,7 @@ GameObject:
   - component: {fileID: 1902543656}
   - component: {fileID: 1902543655}
   - component: {fileID: 1902543658}
+  - component: {fileID: 1902543659}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -20951,8 +22893,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.2, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902543655
 MonoBehaviour:
@@ -21030,7 +22972,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21061,6 +23003,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1902543659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902543653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1917311511
 GameObject:
   m_ObjectHideFlags: 0
@@ -21153,6 +23109,7 @@ GameObject:
   - component: {fileID: 1938706006}
   - component: {fileID: 1938706005}
   - component: {fileID: 1938706008}
+  - component: {fileID: 1938706009}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -21177,8 +23134,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -63.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938706005
 MonoBehaviour:
@@ -21256,7 +23213,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21287,6 +23244,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1938706009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938706003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1947666229
 GameObject:
   m_ObjectHideFlags: 0
@@ -21502,6 +23473,7 @@ GameObject:
   - component: {fileID: 1985048144}
   - component: {fileID: 1985048143}
   - component: {fileID: 1985048146}
+  - component: {fileID: 1985048147}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: SudokuButton
@@ -21526,8 +23498,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -267.4, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985048143
 MonoBehaviour:
@@ -21605,7 +23577,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21636,6 +23608,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1985048147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985048141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1985803242
 GameObject:
   m_ObjectHideFlags: 0
@@ -21649,6 +23635,7 @@ GameObject:
   - component: {fileID: 1985803245}
   - component: {fileID: 1985803244}
   - component: {fileID: 1985803247}
+  - component: {fileID: 1985803248}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: SudokuButton
@@ -21673,8 +23660,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -118.3, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -114, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1985803244
 MonoBehaviour:
@@ -21752,7 +23739,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21783,6 +23770,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1985803248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985803242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &1993669780
 GameObject:
   m_ObjectHideFlags: 0
@@ -21875,6 +23876,7 @@ GameObject:
   - component: {fileID: 1995800227}
   - component: {fileID: 1995800226}
   - component: {fileID: 1995800229}
+  - component: {fileID: 1995800230}
   m_Layer: 5
   m_Name: Button
   m_TagString: SudokuButton
@@ -21899,8 +23901,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369.22, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -369.4, y: 208.75}
+  m_SizeDelta: {x: 49.1, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1995800226
 MonoBehaviour:
@@ -21978,7 +23980,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22009,6 +24011,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &1995800230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995800224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &2000427710
 GameObject:
   m_ObjectHideFlags: 0
@@ -22224,6 +24240,7 @@ GameObject:
   - component: {fileID: 2032631603}
   - component: {fileID: 2032631602}
   - component: {fileID: 2032631605}
+  - component: {fileID: 2032631606}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -22248,8 +24265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -62.1, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2032631602
 MonoBehaviour:
@@ -22327,7 +24344,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22358,6 +24375,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &2032631606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032631600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &2037760346
 GameObject:
   m_ObjectHideFlags: 0
@@ -22802,6 +24833,7 @@ GameObject:
   - component: {fileID: 2084759777}
   - component: {fileID: 2084759776}
   - component: {fileID: 2084759779}
+  - component: {fileID: 2084759780}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: SudokuButton
@@ -22826,8 +24858,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -165.3, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084759776
 MonoBehaviour:
@@ -22905,7 +24937,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22936,6 +24968,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &2084759780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084759774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &2087512548
 GameObject:
   m_ObjectHideFlags: 0
@@ -22949,6 +24995,7 @@ GameObject:
   - component: {fileID: 2087512551}
   - component: {fileID: 2087512550}
   - component: {fileID: 2087512553}
+  - component: {fileID: 2087512554}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: SudokuButton
@@ -22973,8 +25020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66.9, y: 208.75}
-  m_SizeDelta: {x: 46.58, y: 50.68}
+  m_AnchoredPosition: {x: -63.5, y: 208.75}
+  m_SizeDelta: {x: 47, y: 51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087512550
 MonoBehaviour:
@@ -23052,7 +25099,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 28fb4d10bfac0447c9d3563dad882cd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 78cfc948ce72245dd8d30ec2eb372c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23083,6 +25130,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rowIndex: 0
   _columnIndex: 0
+--- !u!114 &2087512554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087512548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb2a0a49d664a869853eb5a6482cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundSource: {fileID: 1556059534}
+  soundClip: {fileID: 8300000, guid: 742ada5e88eea4149819ae3cf42c2144, type: 3}
 --- !u!1 &2088606980
 GameObject:
   m_ObjectHideFlags: 0
@@ -23350,7 +25411,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1500954950}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -23371,13 +25432,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: fed2ab79def7745628a4b8a34d189964, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 432ee44318ea0492489ac6a00708f072, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -10,8 +10,6 @@ public class OnClickPlaySound : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         GetComponent<Button>().onClick.AddListener(OnClick);
-        soundSource = GetComponent<AudioSource> ();
-		soundClip = soundSource.clip;
 	}
 	
 	// Update is called once per frame
@@ -20,6 +18,7 @@ public class OnClickPlaySound : MonoBehaviour {
 	}
 
 	void OnClick(){
+        Debug.Log("On click");
 		soundSource.PlayOneShot (soundClip);
 	}
 }
