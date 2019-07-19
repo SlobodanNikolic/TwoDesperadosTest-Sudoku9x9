@@ -17,6 +17,8 @@ public class Game : MonoBehaviour
         HARD = 1
     }
 
+    private int score;
+
     [SerializeField]
     private GAME_STATE currentState = GAME_STATE.HOME;
     [SerializeField]
@@ -48,6 +50,18 @@ public class Game : MonoBehaviour
     [SerializeField]
     private SudokuControler sudoku;
 
+    [SerializeField]
+    private Text youTriedScore;
+
+    [SerializeField]
+    private Text correctFieldsScore;
+
+   
+    [SerializeField]
+    private Text totalScore;
+
+    [SerializeField]
+    private GameObject scoreLabels;
 
     // Start is called before the first frame update
     void Start()
@@ -67,6 +81,8 @@ public class Game : MonoBehaviour
             currentDifficulty = GAME_MODE.HARD;
             doorButtonHard.gameObject.SetActive(true);
             doorButtonEasy.gameObject.SetActive(false);
+            sudoku.setK(40);
+            sudoku.ResetValues();
 
         }
         else
@@ -74,13 +90,20 @@ public class Game : MonoBehaviour
             currentDifficulty = GAME_MODE.EASY;
             doorButtonHard.gameObject.SetActive(false);
             doorButtonEasy.gameObject.SetActive(true);
-
+            sudoku.setK(25);
+            sudoku.ResetValues();
         }
     }
 
     public void Play(){
+        score = 0;
         Invoke("Ready", 1f);
     }
+
+    public void GameOver(){
+        CalculateScore();
+    }
+
 
     public void SetGameState(GAME_STATE newState){
         switch(newState){
@@ -101,9 +124,26 @@ public class Game : MonoBehaviour
                 homePanel.SetActive(false);
                 gameOverPanel.SetActive(true);
                 sudoku.fillValues();
-                //gamePanel.SetActive(false);
+                //set all labels
+
                 break;
         }
+    }
+
+    private void SetLabels(int youTried, int correct, int total){
+        scoreLabels.SetActive(true);
+
+        totalScore.text = total.ToString();
+        youTriedScore.text = youTried.ToString();
+        correctFieldsScore.text = correct + " x 100";
+    }
+
+    private void GoToHome(){
+        SetGameState(GAME_STATE.HOME);
+    }
+
+    private void GoToGameOver(){
+        SetGameState(GAME_STATE.GAME_OVER);
     }
 
     public bool isEasy(){
@@ -114,5 +154,14 @@ public class Game : MonoBehaviour
 
     public void Ready(){
         SetGameState(GAME_STATE.READY);
+    }
+
+    private void CalculateScore(){
+        int correctFields = sudoku.getK() - sudoku.missingFieldsCount();
+        int youTried = 1500;
+        score = youTried + correctFields * 100;
+        SetLabels(youTried, correctFields, score);
+        Invoke("GoToGameOver", 0.5f);
+
     }
 }

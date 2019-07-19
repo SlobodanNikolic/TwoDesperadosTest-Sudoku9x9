@@ -24,6 +24,9 @@ public class SudokuControler : MonoBehaviour
     [SerializeField]
     private Game game;
 
+    [SerializeField]
+    private List<GameObject> missingFields = new List<GameObject>();
+
     private void Awake()
     {
 
@@ -71,6 +74,11 @@ public class SudokuControler : MonoBehaviour
         fillValues();
 
     }
+    
+
+    public void ResetValues(){
+        fillValues();
+    }
 
 
     private void Initialize(){
@@ -114,6 +122,8 @@ public class SudokuControler : MonoBehaviour
         if(number == 0){
             table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = "";
             table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.white;
+            if (!missingFields.Contains(table[rowIndex][columnIndex]))
+                missingFields.Add(table[rowIndex][columnIndex]);
             return;
         }
 
@@ -130,6 +140,8 @@ public class SudokuControler : MonoBehaviour
                 mat[rowIndex][columnIndex] = number;
                 table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
                 table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.white;
+
+                missingFields.Remove(table[rowIndex][columnIndex]);
             }
             else
             {
@@ -139,6 +151,9 @@ public class SudokuControler : MonoBehaviour
                 //upisi broj crvenom bojom. necemo ga pisati u matricu, jer mora da se promeni
                 table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
                 table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.red;
+
+                if (!missingFields.Contains(table[rowIndex][columnIndex]))
+                    missingFields.Add(table[rowIndex][columnIndex]);
             }
         }
         else
@@ -150,6 +165,13 @@ public class SudokuControler : MonoBehaviour
             table[rowIndex][columnIndex].GetComponentInChildren<Text>().text = number.ToString();
             table[rowIndex][columnIndex].GetComponentInChildren<Text>().color = Color.white;
 
+            if (isAllowed(rowIndex, columnIndex, number))
+                missingFields.Remove(table[rowIndex][columnIndex]);
+            else
+            {
+                if (!missingFields.Contains(table[rowIndex][columnIndex]))
+                    missingFields.Add(table[rowIndex][columnIndex]);
+            }
         }
        
     }
@@ -301,6 +323,8 @@ public class SudokuControler : MonoBehaviour
     {
 
         InitializeMatrix();
+        missingFields = new List<GameObject>();
+
         // Fill the diagonal of SRN x SRN matrices 
         fillDiagonal();
 
@@ -310,6 +334,7 @@ public class SudokuControler : MonoBehaviour
 
         // Remove Randomly K digits to make game 
         removeKDigits();
+
         fillTable();
     }
 
@@ -326,6 +351,7 @@ public class SudokuControler : MonoBehaviour
                 else
                 {
                     table[i][j].GetComponentInChildren<Text>().text = "";
+                    table[i][j].GetComponent<Button>().interactable = true;
                     table[i][j].GetComponentInChildren<Text>().color = Color.white;
 
                 }
@@ -479,6 +505,8 @@ public class SudokuControler : MonoBehaviour
             {
                 count--;
                 mat[i][j] = 0;
+
+                missingFields.Add(table[i][j]);
             }
         }
     }
@@ -507,5 +535,16 @@ public class SudokuControler : MonoBehaviour
         }
     }
 
+    public int missingFieldsCount(){
+        return missingFields.Count;
+    }
+
+    public int getK(){
+        return K;
+    }
+
+    public void setK(int newK){
+        K = newK;
+    }
 
 }
